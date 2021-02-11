@@ -11,7 +11,7 @@
  * If the premission is denied at load time, do we ask regardless
  * 
  */
-var pomoEnd = new Audio();
+var pomoEnd = new Audio("https://notificationsounds.com/notification-sounds/done-for-you-612");
 var pomoStart = new Audio();
  
 checkForPermission();
@@ -30,7 +30,7 @@ function showLongBreakNotif(){
     let icon = 'https://bit.ly/2DYqRrh';
     new Notification(title,{body, icon});
     //workNotif.close();    
-    //pomoEnd.play();
+    pomoEnd.play();
 }
 
 function showshortBreakNotif(){
