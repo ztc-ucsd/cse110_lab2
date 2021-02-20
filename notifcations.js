@@ -103,5 +103,3 @@ function getNotificationStatus(){
 //module.exports = showNotif;
 //module.exports = getNotificationStatus;
 //module.exports = playSound;
-
-//export { showNotif, getNotificationStatus }
